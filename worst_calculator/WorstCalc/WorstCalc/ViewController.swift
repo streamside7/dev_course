@@ -35,8 +35,7 @@ class ViewController: UIViewController {
     @IBAction func addNumbers(_ sender: Any) {
         let validatedInput = validateNumbers()
         if validatedInput.0 {
-            let resultString = String(validatedInput.1 + validatedInput.2)
-            result.text = resultString
+            result.text = String(validatedInput.1 + validatedInput.2)
         } else {
             result.text = "Error"
         }
@@ -45,8 +44,7 @@ class ViewController: UIViewController {
     @IBAction func subtractNumbers(_ sender: Any) {
         let validatedInput = validateNumbers()
         if validatedInput.0 {
-            let resultString = String(validatedInput.1 - validatedInput.2)
-            result.text = resultString
+            result.text = String(validatedInput.1 - validatedInput.2)
         } else {
             result.text = "Error"
         }    }
@@ -54,8 +52,7 @@ class ViewController: UIViewController {
     @IBAction func multiplyNumbers(_ sender: Any) {
         let validatedInput = validateNumbers()
         if validatedInput.0 {
-            let resultString = String(validatedInput.1 * validatedInput.2)
-            result.text = resultString
+            result.text = String(validatedInput.1 * validatedInput.2)
         } else {
             result.text = "Error"
         }
@@ -64,8 +61,7 @@ class ViewController: UIViewController {
     @IBAction func divideNumbers(_ sender: Any) {
         let validatedInput = validateNumbers()
         if validatedInput.0 && validatedInput.2 != 0 {
-            let resultString = String(validatedInput.1 / validatedInput.2)
-            result.text = resultString
+            result.text = String(validatedInput.1 / validatedInput.2)
         } else {
             result.text = "Error"
         }
