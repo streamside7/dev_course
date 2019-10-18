@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  WorstCalc
 //
-//  Created by Niosh User on 10/17/19.
-//  Copyright © 2019 Niosh User. All rights reserved.
+//  Created by Roger Pingleton on 10/17/19.
+//  Copyright © 2019 Roger Pingleton. All rights reserved.
 //
 
 import UIKit
